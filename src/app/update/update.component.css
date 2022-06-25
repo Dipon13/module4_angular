@@ -1,0 +1,37 @@
+.mainbox {
+  background-image: url(background.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.maincontent {
+  width: 50%;
+  margin-left: 26%;
+}
+.maincontent #heading {
+  border-left: 4px solid rgb(6, 45, 107);
+  padding-left: 1rem;
+}
+
+#edupanel {
+  width: 20%;
+}
+#dsp {
+  margin-left: 1rem;
+}
+#button2 {
+  margin-left: 2rem;
+}
+#button1 {
+  color: aliceblue;
+  background-color: #093775ea;
+}
+.maincontent {
+  border: 3px solid rgb(6, 48, 97);
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: rgba(10, 118, 124, 0.303);
+}

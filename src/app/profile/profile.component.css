@@ -1,0 +1,69 @@
+.photo #photo {
+  width: 85%;
+  border-radius: 85px;
+}
+.mainbox {
+  height: 100%;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    153deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.box2,
+.inner1,
+.inner2 {
+  color: aliceblue;
+}
+.box2 {
+  margin-top: 5%;
+  height: 40%;
+  width: 75%;
+  margin-left: 9%;
+}
+.inner1,
+.inner2 {
+  margin-top: 2%;
+  width: 38%;
+  float: left;
+}
+.inner1 {
+  margin-left: 10%;
+}
+.inner2 {
+  margin-left: 9rem;
+}
+.container1 {
+  height: 20%;
+  width: 90%;
+  margin-left: 3%;
+}
+.photo {
+  float: left;
+  height: 100%;
+  width: 10%;
+}
+.content1 {
+  margin-top: 2rem;
+  float: left;
+  width: 20%;
+  height: 50%;
+  padding-left: 1rem;
+  border-left: 3px solid whitesmoke;
+  color: aliceblue;
+}
+#edit {
+  margin-top: 3rem;
+  width: 10%;
+  margin-left: 40%;
+  color: rgb(255, 255, 255);
+  background-color: #4caf50;
+}
+
+.clearfix {
+  clear: both;
+}

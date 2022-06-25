@@ -1,0 +1,47 @@
+<div class="outer">
+  <mat-card class="mainbox">
+    <div class="mattitle">
+      <mat-card-title id="m_title">
+        <p id="primary">User Log In</p>
+      </mat-card-title>
+    </div>
+    <div class="matcontent">
+      <mat-card-content class="m_content">
+        <mat-form-field id="field">
+          <input
+            type="text"
+            matInput
+            placeholder="Username"
+            id="uname"
+            #uname
+          /> </mat-form-field
+        ><br />
+        <mat-form-field id="field">
+          <input
+            type="password"
+            matInput
+            placeholder="Password"
+            #pswd
+          /> </mat-form-field
+        ><br />
+        <mat-checkbox id="chkbx">Remember Me</mat-checkbox><br />
+      </mat-card-content>
+    </div>
+    <div class="mataction">
+      <mat-card-actions>
+        <button
+          color="primary"
+          mat-raised-button
+          (click)="
+            Validate(uname.value, pswd.value); uname.value = ''; pswd.value = ''
+          "
+          id="submitbtn"
+          #submitbtn
+        >
+          Log In
+        </button>
+      </mat-card-actions>
+    </div>
+  </mat-card>
+</div>
+<router-outlet></router-outlet>

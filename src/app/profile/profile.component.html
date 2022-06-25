@@ -1,0 +1,61 @@
+<mat-card class="mainbox">
+  <div class="container1">
+    <div class="photo">
+      <img
+        id="photo"
+        src="https://scontent.frdp4-1.fna.fbcdn.net/v/t39.30808-6/246661876_571466577423725_6566822828690771483_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=m2wo9_ejQHsAX96uspS&_nc_ht=scontent.frdp4-1.fna&oh=00_AT_Qr9_NH9gSzBIxZCzEIiXmhhy9GQ8TCl3GWRCa3vyTeA&oe=62BAA2D6"
+        alt="Photo"
+      />
+    </div>
+    <div class="content1">
+      <mat-card-title> {{ fname }}&nbsp; {{ lname }} </mat-card-title>
+      <button color="warn" mat-raised-button routerLink="/">Sign Out</button>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="box2">
+    <div class="inner1">
+      <mat-card-subtitle
+        style="
+          font-size: 14pt;
+          color: aliceblue;
+          border-bottom: 2px solid rgb(129, 255, 238);
+          padding-bottom: 1rem;
+        "
+        ><b>Personal Details :</b></mat-card-subtitle
+      >
+      <mat-card-content style="font-size: 12pt"
+        ><br />
+        <b>Date of birth :&nbsp;&nbsp;&nbsp;</b> {{ dob }} <br /><br />
+        <b>Gender :&nbsp;&nbsp;&nbsp;</b> {{ gender }} <br /><br />
+        <b>Highest Educational Qualification :&nbsp;&nbsp;&nbsp;</b> {{ edu }}
+        <br /><br />
+        <b>Discipline :&nbsp;&nbsp;&nbsp;</b> {{ discipline }} <br /><br />
+        <b>Contact :&nbsp;&nbsp;&nbsp;</b> {{ contact }} <br /><br />
+      </mat-card-content>
+    </div>
+    <div class="inner2">
+      <mat-card-subtitle
+        style="
+          font-size: 14pt;
+          color: aliceblue;
+          border-bottom: 2px solid rgb(129, 255, 238);
+          padding-bottom: 1rem;
+        "
+        ><b>Address :</b></mat-card-subtitle
+      >
+      <mat-card-content style="font-size: 12pt"
+        ><br />
+        <b>Post :&nbsp;&nbsp;&nbsp;</b> {{ po }} <br /><br />
+        <b>P.S :&nbsp;&nbsp;&nbsp;</b> {{ ps }} <br /><br />
+        <b>City :&nbsp;&nbsp;&nbsp;</b> {{ city }} <br /><br />
+        <b>PIN :&nbsp;&nbsp;&nbsp;</b> {{ pin }} <br /><br />
+        <b>State :&nbsp;&nbsp;&nbsp;</b> {{ state }} <br /><br />
+      </mat-card-content>
+    </div>
+    <div class="clearfix"></div>
+    <button id="edit" color="primary" mat-raised-button routerLink="/update">
+      Edit
+    </button>
+  </div>
+</mat-card>
